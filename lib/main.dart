@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:task_6_ecommerce/core/constant/app_themes.dart';
 import 'package:task_6_ecommerce/routes.dart';
 import 'bindings/initial_bindings.dart';
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           initialBinding: InitialBindings(),
           debugShowCheckedModeBanner: false,
+          theme: appTheme,
           getPages: routes,
         );
       },
