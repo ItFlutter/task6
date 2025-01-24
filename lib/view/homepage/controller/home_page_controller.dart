@@ -9,7 +9,6 @@ import 'package:task_6_ecommerce/data/data_source/remote/home_data.dart';
 import 'package:task_6_ecommerce/data/model/cart_model/cart_model.dart';
 import 'package:task_6_ecommerce/data/model/category_model.dart';
 import 'package:task_6_ecommerce/data/model/product_model/product_model.dart';
-import 'package:task_6_ecommerce/data/model/product_model/product_model.dart';
 
 class HomePageController extends GetxController {
   List favorite = [];
